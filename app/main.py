@@ -15,7 +15,8 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
-var_list = [lucky_number, pi, one_is_a_prime_number, name, my_favourite_films, profile_info, marks, collection_of_coins]
+var_list = [lucky_number, pi, one_is_a_prime_number, name, my_favourite_films,
+            profile_info, marks, collection_of_coins]
 mutable = []
 immutable = []
 sorted_variables = {"mutable": mutable, "immutable": immutable}
@@ -26,4 +27,3 @@ for value in var_list:
         mutable.append(value)
     else:
         immutable.append(value)
-
